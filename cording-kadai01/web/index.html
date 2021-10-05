@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cresta Design.</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/destyle.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src='js/jquery-3.6.0.min.js'></script>
+  <script src='js/main.js'></script>
+</head>
+<body>
+  <header>
+    <h1 class="logo"><a href="/">クリ★スタ</a></h1>
+    <div class="humb">
+      <span class="humb_line"></span>
+      <span class="humb_line"></span>
+      <span class="humb_line"></span>
+    </div>
+    <nav class="gnav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#news">news</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="mainvisual">
+    <picture class="sample">
+      <source srcset="img/mainvisual_sp.jpg" media="(max-width: 750px)" />
+      <img src="img/mainvisual_pc.jpg" alt="メインビジュアル"/>
+    </picture>
+    <div class="mv_lead_wrap"><p class="mv_lead">Cresta Design.</p></div>
+  </div>
+  <section class="content" id="about">
+    <div class="content_inner">
+      <h2>About</h2>
+      <!-- コメント -->
+      <p class="cnt_lead"><strong>ミニマルで<br>洗練されたデザインを。</strong></p>
+      <p>近年、ミニマルなデザインが流行しています。そこで弊社では、クライアント企業様新規サービス等の課題に対してミニマルで洗練されたデザインを実現させることで解決のサポートを致します。もちろん全てのサービスにおいてミニマルなデザインが課題解決になるわけではないので、課題や今後のサービスの展開等しっかりとヒアリングを行なった上でご提案させて頂きます。</p>
+    </div>
+  </section>
+  <section class="content" id="service">
+    <div class="content_inner">
+      <h2>Service</h2>
+      <div class="column image_left">
+        <div class="column_image">
+          <img src="img/service_image01.jpg" alt="カメラの写真">
+        </div>
+        <div class="column_txt">
+          <p class="cnt_lead"><strong>リリース時のサポートで<br>サービスのブランディングを</strong></p>
+          <p>弊社では、リリース時もサポートさせて頂きます。プレスリリース用のサイトや動画制作を通して、サービスのブランディングを行わせて頂きます。</p>
+        </div>
+      </div>
+      <div class="column image_right">
+        <div class="column_image">
+          <img src="img/service_image02.jpg" alt="スマートフォンの写真">
+        </div>
+        <div class="column_txt">
+          <p class="cnt_lead"><strong>リリース後のサポートで<br>効果を最大化させる</strong></p>
+          <p>弊社では、リリース後もサポートさせて頂きます。サービスはリリース後に様々な課題にぶつかります。そこでクライアント様と一緒に改善を行うことで、デザインの効果を最大化させます。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="content" id="news">
+    <div class="content_inner">
+      <h2>News</h2>
+      <div class="card">
+        <a class="card_item" href="#">
+          <img class="card_image" src="img/card_image01.jpg" alt="スマートフォンの写真">
+          <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+        </a>
+        <a class="card_item" href="#">
+          <img class="card_image" src="img/card_image02.jpg" alt="スマートフォンの写真">
+          <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+        </a>
+        <a class="card_item" href="#">
+          <img class="card_image" src="img/card_image03.jpg" alt="パソコンの写真">
+          <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="contact_inner">
+      <h2>お問い合わせ</h2>
+      <form>
+        <label for="name">担当者名</label>
+        <input type="text" name="name" id="name">
+        <label for="tel">電話番号</label>
+        <input type="text" name="tel" id="tel">
+        <label for="mail">メールアドレス</label>
+        <input type="text" name="mail" id="mail">
+        <label for="textbox">お問い合わせ内容</label>
+        <textarea name="textbox" id="textbox" cols="30" rows="10"></textarea>
+        <div class="form_btn">
+          <input type="submit" value="送信">
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p class="copy">©︎crest.design all rights reserved</p>
+  </footer>
+</body>
+</html>
